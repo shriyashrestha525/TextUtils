@@ -1,13 +1,17 @@
-import logo from './logo.svg';
+
 import './App.css';
 import NavBar from "./components/Navbar.js"
+
+
 
 function App() {
   return (
     <>
-      <NavBar></NavBar>
+      <NavBar title = "TextUtils" />
     </>
   );
 }
+
+
 
 export default App;
